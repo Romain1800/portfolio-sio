@@ -37,6 +37,7 @@ export interface Stage {
   id: string;
   company: string;
   logo: string;
+  logoDark?: string;
   location: string;
   period: string;
   role: string;

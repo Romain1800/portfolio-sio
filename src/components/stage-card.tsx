@@ -10,12 +10,22 @@ export function StageCard({ stage, index }: { stage: Stage; index: number }) {
     <FadeIn delay={index * 0.08}>
       <div className="overflow-hidden rounded-xl border border-border bg-surface">
         <div className="flex flex-col gap-4 border-b border-border p-6 sm:flex-row sm:items-center">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={stage.logo}
-            alt=""
-            className="h-14 w-14 rounded-lg border border-border object-cover"
-          />
+          <div className="flex h-16 w-32 shrink-0 items-center justify-start">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={stage.logo}
+              alt={stage.company}
+              className={`max-h-14 w-auto max-w-full object-contain ${stage.logoDark ? "logo-theme-light" : ""}`}
+            />
+            {stage.logoDark && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={stage.logoDark}
+                alt={stage.company}
+                className="logo-theme-dark max-h-14 w-auto max-w-full object-contain"
+              />
+            )}
+          </div>
           <div className="flex-1">
             <div className="mb-1 flex flex-wrap items-center gap-2">
               <h3 className="text-lg font-semibold text-foreground">{stage.role}</h3>

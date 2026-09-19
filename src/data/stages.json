@@ -2,7 +2,8 @@
   {
     "id": "stage-al-nilaya",
     "company": "Al Nilaya — cosmétique naturelle",
-    "logo": "/images/stages/al-nilaya/logo-al-nilaya.png",
+    "logo": "/images/stages/al-nilaya/logo-al-nilaya-light.webp",
+    "logoDark": "/images/stages/al-nilaya/logo-al-nilaya-dark.webp",
     "location": "Auto-entreprise e-commerce (Shopify)",
     "period": "18 mai – 26 juin 2026 · 6 semaines",
     "role": "Stagiaire — conception d'outils de gestion & documentation",
