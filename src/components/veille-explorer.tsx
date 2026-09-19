@@ -7,6 +7,17 @@ import { Badge } from "@/components/ui/badge";
 import { FadeIn } from "@/components/ui/fade-in";
 import type { VeilleArticle } from "@/lib/types";
 
+function formatVeilleDate(date: string) {
+  // Certaines sources (pages de référence OWASP, tutoriel Grafikart) n'affichent
+  // qu'une année : on la garde telle quelle plutôt que d'inventer un jour.
+  if (/^\d{4}$/.test(date)) return date;
+  return new Date(date).toLocaleDateString("fr-FR", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+  });
+}
+
 export function VeilleExplorer({ articles }: { articles: VeilleArticle[] }) {
   const [category, setCategory] = useState("Tous");
 
@@ -64,11 +75,7 @@ export function VeilleExplorer({ articles }: { articles: VeilleArticle[] }) {
                     <Rss size={12} /> {article.source}
                   </span>
                   <span className="text-xs text-muted">
-                    {new Date(article.date).toLocaleDateString("fr-FR", {
-                      day: "2-digit",
-                      month: "short",
-                      year: "numeric",
-                    })}
+                    {formatVeilleDate(article.date)}
                   </span>
                 </div>
                 <h3 className="mb-1 font-semibold text-foreground transition-colors group-hover:text-accent">
