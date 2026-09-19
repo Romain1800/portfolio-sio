@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+
+# Runtime officiel Next.js pour Netlify (SSR, routes API, App Router).
+# Netlify installe ce plugin automatiquement, aucune dépendance à ajouter.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
