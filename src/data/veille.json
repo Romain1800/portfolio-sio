@@ -35,7 +35,7 @@
     "category": "Cybersécurité",
     "date": "2026-07-20",
     "source": "OWASP",
-    "url": "https://owasp.org/www-community/attacks/SQL_Injection",
+    "url": "https://community.owasp.org/attacks/SQL_Injection",
     "summary": "Mécanisme des injections SQL et contre-mesures : requêtes préparées et paramétrées (PDO), validation des entrées et principe du moindre privilège.",
     "tags": ["Cybersécurité", "SQL", "OWASP"]
   },
@@ -45,7 +45,7 @@
     "category": "Cybersécurité",
     "date": "2026-07-02",
     "source": "OWASP",
-    "url": "https://owasp.org/www-project-top-ten/",
+    "url": "https://owasp.org/projects/top-ten",
     "summary": "Tour d'horizon des failles les plus répandues (injections, XSS, contrôle d'accès défaillant) et des réflexes de développement sécurisé à adopter.",
     "tags": ["Cybersécurité", "Web", "OWASP"]
   },
@@ -55,7 +55,7 @@
     "category": "Cybersécurité",
     "date": "2026-06-18",
     "source": "ANSSI",
-    "url": "https://www.ssi.gouv.fr",
+    "url": "https://cyber.gouv.fr/",
     "summary": "Recommandations de l'ANSSI pour développer et déployer des applications plus sûres : gestion des accès, journalisation et protection des données.",
     "tags": ["Cybersécurité", "Bonnes pratiques"]
   },
