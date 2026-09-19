@@ -1,6 +1,6 @@
-# Portfolio SIO — Mandy Debrabandère
+# Portfolio SIO — Romain Audebert
 
-Portfolio professionnel réalisé avec Next.js (App Router), TypeScript, Tailwind CSS et Framer Motion, destiné au jury du BTS SIO SISR et aux entreprises.
+Portfolio professionnel réalisé avec Next.js (App Router), TypeScript, Tailwind CSS et Framer Motion, destiné au jury du BTS SIO SLAM et aux entreprises.
 
 ## Démarrer en local
 
