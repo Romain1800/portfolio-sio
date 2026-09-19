@@ -1,82 +1,82 @@
 [
   {
     "id": "v1",
-    "title": "GitHub lance Copilot X : l'expérience des développeurs alimentée par l'IA",
+    "title": "OpenAI : la course aux modèles de pointe avec GPT-6 Astra",
     "category": "Intelligence artificielle",
-    "date": "2023-03-23",
-    "source": "Developpez.com",
-    "url": "https://intelligence-artificielle.developpez.com/actu/342734/GitHub-lance-Copilot-X-l-experience-des-developpeurs-alimentee-par-l-IA-grace-a-l-ajout-d-une-fonction-de-chat-et-de-voix-permettant-de-demander-comment-accomplir-certaines-taches-de-codage/",
-    "summary": "Présentation de GitHub Copilot X : l'assistant de code basé sur l'IA s'enrichit d'un chat et de commandes vocales pour aider les développeurs à réaliser leurs tâches de programmation.",
-    "tags": ["IA", "Développement", "Productivité"]
+    "date": "2026-09-04",
+    "source": "Le Monde Informatique",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-openai-la-course-aux-modeles-de-pointe-avec-gpt-6-astra-100766.html",
+    "summary": "OpenAI présente GPT-6 Astra, un modèle qui mise moins sur la conversation que sur le raisonnement, l'usage d'un ordinateur et l'exécution autonome de tâches longues, dans une course serrée face à Anthropic et Google.",
+    "tags": ["IA", "LLM", "OpenAI"]
   },
   {
     "id": "v2",
-    "title": "The Large Language Model Course",
+    "title": "L'IA est partout dans les entreprises, les agents presque nulle part",
     "category": "Intelligence artificielle",
-    "date": "2025-01-16",
-    "source": "Hugging Face",
-    "url": "https://huggingface.co/blog/mlabonne/llm-course",
-    "summary": "Parcours d'apprentissage complet sur les grands modèles de langage (LLM) : fondamentaux, entraînement, fine-tuning et déploiement, avec ressources et notebooks pratiques.",
-    "tags": ["IA", "LLM", "NLP"]
+    "date": "2026-08-24",
+    "source": "Le Monde Informatique",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-l-ia-est-partout-dans-les-entreprises-les-agents-presque-nulle-part-100750.html",
+    "summary": "Selon l'Insee, l'usage organisé de l'IA en entreprise progresse fortement, mais très peu d'organisations déploient à l'échelle des agents autonomes capables d'agir seuls.",
+    "tags": ["IA", "Agents IA", "Entreprise"]
   },
   {
     "id": "v3",
-    "title": "IA générative : quelle stratégie pour en tirer les bénéfices (et en limiter les risques)",
+    "title": "State of Open Models: Summer 2026 Observations",
     "category": "Intelligence artificielle",
-    "date": "2023-06-13",
-    "source": "LeMagIT",
-    "url": "https://www.lemagit.fr/conseil/IA-generative-quelles-strategies-pour-en-tirer-les-benefices-et-en-limiter-les-risqques",
-    "summary": "Panorama des bénéfices et des risques de l'IA générative en entreprise — dont la sécurité et la confidentialité des données — et pistes pour définir une stratégie maîtrisée.",
-    "tags": ["IA", "Sécurité", "RGPD"]
+    "date": "2026-08-14",
+    "source": "Hugging Face",
+    "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+    "summary": "Bilan de l'écosystème des modèles ouverts en 2026 : montée des laboratoires chinois, domination de Qwen, poids des petits modèles (moins d'1 milliard de paramètres) dans les téléchargements et émergence des agents comme nouveaux utilisateurs du Hub.",
+    "tags": ["IA", "Modèles ouverts", "LLM"]
   },
   {
     "id": "v4",
-    "title": "A03:2021 – Injection (OWASP Top 10)",
+    "title": "Microsoft lance son premier modèle IA dédié à la cybersécurité",
     "category": "Cybersécurité",
-    "date": "2021",
-    "source": "OWASP",
-    "url": "https://top10.owasp.org/A03_2021-Injection/",
-    "summary": "Catégorie « Injection » du Top 10 OWASP : mécanisme des failles d'injection (dont l'injection SQL), impacts et mesures de prévention (requêtes préparées, validation des entrées).",
-    "tags": ["Cybersécurité", "SQL", "OWASP"]
+    "date": "2026-07-29",
+    "source": "Le Monde Informatique",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-microsoft-lance-son-premier-modele-ia-dedie-a-la-cybersecurite-100722.html",
+    "summary": "Microsoft dévoile MAI-Cyber-1-Flash, sa première famille de modèles d'IA dédiés à la cybersécurité, notamment capables de détecter des vulnérabilités logicielles.",
+    "tags": ["Cybersécurité", "IA", "Microsoft"]
   },
   {
     "id": "v5",
-    "title": "OWASP Top 10 (2025)",
-    "category": "Cybersécurité",
-    "date": "2025",
-    "source": "OWASP",
-    "url": "https://owasp.org/Top10/2025/",
-    "summary": "Version 2025 du Top 10 OWASP : les dix risques de sécurité les plus critiques des applications web (contrôle d'accès défaillant, injections, mauvaise configuration, etc.).",
-    "tags": ["Cybersécurité", "Web", "OWASP"]
+    "title": "Les compétences IA les plus recherchées en 2026",
+    "category": "Intelligence artificielle",
+    "date": "2026-01-20",
+    "source": "Le Monde Informatique",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-les-competences-ia-les-plus-recherchees-en-2026-99078.html",
+    "summary": "Panorama des compétences en IA les plus recherchées en 2026 : au-delà du code, la capacité à relier technologie, gouvernance et transformation, et à instaurer la confiance.",
+    "tags": ["IA", "Compétences", "Emploi"]
   },
   {
     "id": "v6",
-    "title": "Sécuriser un site web",
-    "category": "Cybersécurité",
-    "date": "2021-04-28",
-    "source": "ANSSI",
-    "url": "https://messervices.cyber.gouv.fr/guides/securiser-un-site-web",
-    "summary": "Guide de l'ANSSI (MesServicesCyber) : recommandations et bonnes pratiques pour sécuriser un site web, notamment la maîtrise des standards de sécurité côté navigateur.",
-    "tags": ["Cybersécurité", "Bonnes pratiques"]
+    "title": "Les développeurs restent méfiants sur le code généré par l'IA",
+    "category": "Développement",
+    "date": "2026-01-21",
+    "source": "Le Monde Informatique",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-les-developpeurs-restent-mefiants-sur-le-code-genere-par-l-ia-99103.html",
+    "summary": "Si l'usage des assistants de génération de code explose chez les développeurs, une large majorité déclare ne pas faire entièrement confiance au code produit par l'IA.",
+    "tags": ["Développement", "IA", "Assistants de code"]
   },
   {
     "id": "v7",
-    "title": "La POO en PHP : Model View Controller (MVC)",
-    "category": "Développement web",
-    "date": "2015",
-    "source": "Grafikart",
-    "url": "https://grafikart.fr/tutoriels/mvc-model-view-controller-574",
-    "summary": "Tutoriel vidéo sur le patron d'architecture MVC en PHP : séparation du modèle, de la vue et du contrôleur pour un code mieux organisé et plus maintenable.",
-    "tags": ["PHP", "MVC", "Développement"]
+    "title": "Plus de codage assisté par l'IA dans Visual Studio 2026",
+    "category": "Développement",
+    "date": "2025-09-19",
+    "source": "Le Monde Informatique",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-plus-de-codage-assiste-par-l-ia-dans-visual-studio-2026-97913.html",
+    "summary": "Visual Studio 2026 intègre davantage l'IA au flux de travail des développeurs, avec notamment un agent de profilage pour comprendre et corriger les problèmes de performances.",
+    "tags": ["Développement", "IDE", "IA"]
   },
   {
     "id": "v8",
-    "title": "Write Better Commits, Build Better Projects",
-    "category": "Développement web",
-    "date": "2022-06-30",
-    "source": "GitHub Blog",
-    "url": "https://github.blog/developer-skills/github/write-better-commits-build-better-projects/",
-    "summary": "Bonnes pratiques pour des commits Git de qualité : commits atomiques racontant une histoire et messages expliquant le quoi et le pourquoi — utile pour la revue de code et le débogage.",
-    "tags": ["Git", "GitHub", "Bonnes pratiques"]
+    "title": "2026, l'année des agents IA selon Gartner",
+    "category": "Intelligence artificielle",
+    "date": "2025-08-26",
+    "source": "Le Monde Informatique",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-2026-l-annee-des-agents-ia-selon-gartner-97680.html",
+    "summary": "Pour Gartner, 2026 marque le tournant des agents IA : passage des assistants embarqués à des agents spécialisés, avec à terme des écosystèmes multi-agents automatisant de nombreux processus.",
+    "tags": ["IA", "Agents IA", "Gartner"]
   }
 ]
