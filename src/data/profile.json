@@ -1,0 +1,39 @@
+{
+  "name": "Romain Audebert",
+  "title": "Étudiant BTS SIO 2ᵉ année — Option SLAM",
+  "tagline": "Développeur d'applications : je conçois et développe des applications web et logicielles, du modèle de données jusqu'à l'interface.",
+  "shortBio": "Étudiant en 2ᵉ année de BTS Services Informatiques aux Organisations, option Solutions Logicielles et Applications Métiers (SLAM), à l'ICOF — Campus Lyon Saint-Irénée. J'ai réalisé des projets concrets en Java orienté objet et en PHP/MySQL selon l'architecture MVC, aujourd'hui publiés sur GitHub, et conçu un outil de gestion complet lors de mon stage de 1ʳᵉ année chez Al Nilaya.",
+  "location": "Lyon, Auvergne-Rhône-Alpes",
+  "availability": "En recherche d'un stage — BTS SIO 2ᵉ année, option SLAM",
+  "email": "romain.adbrt@gmail.com",
+  "phone": "07 89 05 92 68",
+  "linkedin": "https://www.linkedin.com/in/romain-a-797658416/",
+  "github": "https://github.com/Romain1800",
+  "cvUrl": "/cv/cv-romain-audebert.pdf",
+  "avatar": "/images/avatar.svg",
+  "status": "Deux projets de développement publiés en open source sur GitHub — code consultable en ligne.",
+  "languages": [
+    { "name": "Français", "level": "Langue maternelle" },
+    { "name": "Anglais", "level": "Niveau B1 — lecture technique" }
+  ],
+  "stats": [
+    { "label": "Projets présentés", "value": 3, "suffix": "" },
+    { "label": "Stage effectué", "value": 1, "suffix": "" },
+    { "label": "Technologies pratiquées", "value": 8, "suffix": "" },
+    { "label": "Certifications", "value": 4, "suffix": "" }
+  ],
+  "qualities": [
+    "Autonomie & prise d'initiative",
+    "Esprit d'analyse & résolution de problèmes",
+    "Rigueur & organisation dans le travail",
+    "Travail en équipe & sens du service",
+    "Curiosité technique & auto-formation"
+  ],
+  "interests": [
+    "Intelligence artificielle (passion)",
+    "Développement web & logiciel",
+    "Jeux vidéo & esport",
+    "Veille technologique"
+  ],
+  "objectives": "Valider mon BTS SIO option SLAM, réaliser un stage en développement, et progresser vers un métier de développeur (web / logiciel), avec une véritable passion pour l'intelligence artificielle que je souhaite intégrer à mes projets."
+}

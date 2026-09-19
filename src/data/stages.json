@@ -1,0 +1,31 @@
+[
+  {
+    "id": "stage-al-nilaya",
+    "company": "Al Nilaya — cosmétique naturelle",
+    "logo": "/images/stages/al-nilaya/logo-al-nilaya.png",
+    "location": "Auto-entreprise e-commerce (Shopify)",
+    "period": "18 mai – 26 juin 2026 · 6 semaines",
+    "role": "Stagiaire — conception d'outils de gestion & documentation",
+    "status": "Terminé",
+    "context": "Stage de 1ʳᵉ année de BTS SIO réalisé chez Al Nilaya, une marque française de cosmétique naturelle inspirée des traditions marocaines, qui commercialise ses produits en ligne via Shopify. Au sein de cette petite structure, l'autonomie et la polyvalence étaient essentielles : il fallait proposer des outils simples, fiables et immédiatement opérationnels.",
+    "missions": [
+      "Analyse du système d'information et des besoins numériques de l'entreprise.",
+      "Conception d'un outil de suivi des stocks avec alertes de rupture automatiques.",
+      "Structuration du catalogue produits (5 références et 3 coffrets).",
+      "Automatisation de tâches administratives par formules et calculs.",
+      "Création d'un tableau de bord commercial : ventes, indicateurs clés et suivi des commandes/livraisons.",
+      "Rédaction d'un guide utilisateur et d'une procédure interne.",
+      "Analyse et propositions d'amélioration de l'expérience utilisateur du site Shopify."
+    ],
+    "competences": [
+      "Analyse des besoins",
+      "Modélisation & gestion des données",
+      "Automatisation",
+      "Tableau de bord & indicateurs",
+      "Documentation technique"
+    ],
+    "outils": ["Excel avancé", "RECHERCHEX", "Shopify"],
+    "feedback": "Ce stage m'a permis de mettre en œuvre l'analyse d'un besoin réel et d'y répondre par un outil unique, centralisant le suivi des stocks, des références et des ventes. Résultats : réduction du temps de recherche et de mise à jour des informations, moins d'erreurs liées aux saisies manuelles et une meilleure lisibilité des données pour piloter l'activité. Une expérience qui a confirmé mon goût pour la structuration de l'information et l'optimisation des processus.",
+    "attestation": null
+  }
+]

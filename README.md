@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio SIO — Mandy Debrabandère
 
-## Getting Started
+Portfolio professionnel réalisé avec Next.js (App Router), TypeScript, Tailwind CSS et Framer Motion, destiné au jury du BTS SIO SISR et aux entreprises.
 
-First, run the development server:
+## Démarrer en local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le site est disponible sur [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build   # build de production
+npm run lint    # vérification du code
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Formulaire de contact (envoi d'email)
 
-## Learn More
+Le formulaire de contact envoie un vrai email via [Resend](https://resend.com) (route `src/app/api/contact/route.ts`).
 
-To learn more about Next.js, take a look at the following resources:
+1. Créez un compte gratuit sur [resend.com](https://resend.com).
+2. Récupérez une clé API (Dashboard > API Keys).
+3. Copiez `.env.example` en `.env.local` et collez-y votre clé :
+   ```bash
+   cp .env.example .env.local
+   ```
+4. Sur votre hébergeur (Vercel, etc.), ajoutez `RESEND_API_KEY` dans les variables d'environnement du projet.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Sans clé configurée, le formulaire affiche un message d'erreur explicite au lieu d'échouer silencieusement.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Mettre à jour le contenu sans toucher au code
 
-## Deploy on Vercel
+Tout le contenu éditorial vit dans `src/data/*.json`. Il suffit de modifier ces fichiers (aucune connaissance en programmation requise) :
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Fichier | Contenu |
+| --- | --- |
+| `src/data/profile.json` | Nom, accroche, disponibilité, statistiques du hero, CV, réseaux |
+| `src/data/timeline.json` | Frise chronologique de la page "À propos" |
+| `src/data/skills.json` | Dashboard de compétences (catégories, niveaux 0-100, icônes) |
+| `src/data/projects.json` | Liste des projets (métadonnées : titre, techno, statut...) |
+| `src/data/stages.json` | Fiches de stage en entreprise |
+| `src/data/certifications.json` | Certifications et badges |
+| `src/data/veille.json` | Articles de veille technologique |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Ajouter un projet
+
+1. Ajoute une entrée dans `src/data/projects.json` (copie un objet existant et modifie `slug`, `title`, etc.).
+2. Crée le fichier `src/content/projects/<slug>.mdx` avec le contenu détaillé (Contexte, Problématique, Missions, Architecture, Résultats, Compétences BTS, Preuves).
+3. Dépose l'image de couverture dans `public/images/projects/`.
+
+La page `/projets/<slug>` est générée automatiquement.
+
+### Ajouter une certification ou un article de veille
+
+Ajoute simplement une entrée dans le fichier JSON correspondant — la page se met à jour automatiquement, sans redéploiement de code.
+
+### Icônes
+
+Les noms d'icônes (`"icon": "Server"`) correspondent aux composants de [lucide-react](https://lucide.dev/icons/). La liste des icônes disponibles est déclarée dans `src/lib/icon-map.ts` — ajoute-y une entrée si tu utilises une nouvelle icône.
+
+## Structure technique
+
+- `src/app` — pages (App Router)
+- `src/components` — composants UI réutilisables
+- `src/data` — contenu éditorial (JSON)
+- `src/content/projects` — corps détaillé des projets (MDX)
+- `src/lib` — types, utilitaires, navigation
+
+## Déploiement
+
+Le projet est un site Next.js standard, déployable sur Vercel, Netlify ou tout hébergeur Node.js (`npm run build && npm run start`).

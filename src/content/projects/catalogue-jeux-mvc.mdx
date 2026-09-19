@@ -1,0 +1,38 @@
+## Contexte
+
+Projet réalisé dans le cadre du BTS SIO option SLAM : développer une application web dont les
+données proviennent d'une base de données, selon le modèle **MVC (Modèle-Vue-Contrôleur)**, avec
+des requêtes **PDO** préparées et paramétrées. J'ai choisi de réaliser un catalogue de jeux vidéo
+(liste + fiche détaillée).
+
+## Fonctionnalités
+
+- Liste des jeux affichée sous forme de cartes cliquables.
+- Fiche détaillée par jeu (genre, éditeur, date de sortie, plateformes, description).
+- Données issues d'une base relationnelle interrogée en SQL.
+
+## Architecture MVC
+
+- **Modèle** : classe `Connexion` (PDO, patron singleton) et classe `Jeu` (`getTous()`, `getParId()`).
+- **Contrôleur** : `JeuControleur` fait le lien entre le modèle et les vues (`liste`, `detail`).
+- **Vue** : `liste.php` et `detail.php` génèrent le HTML.
+- **Routeur** : `index.php`, point d'entrée unique (`?action=liste|detail`).
+
+## Base de données
+
+Deux tables reliées par une **clé étrangère** (`jeux` → `genres`), interrogées avec une **jointure**
+`LEFT JOIN` pour afficher le genre de chaque jeu.
+
+## Sécurité
+
+- **Requêtes préparées et paramétrées** (`bindParam`) → protection contre les **injections SQL**.
+- **Échappement des sorties** (`htmlspecialchars`) → protection contre les failles **XSS**.
+
+## Résultats
+
+Une application fonctionnelle, structurée et sécurisée, qui couvre toute la chaîne : conception de la
+base de données, accès aux données en PDO et organisation du code selon l'architecture MVC.
+
+## Code source
+
+- Dépôt GitHub : [github.com/Romain1800/catalogue-jeux-mvc](https://github.com/Romain1800/catalogue-jeux-mvc)

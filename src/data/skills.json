@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Développement & langages",
+    "icon": "Code2",
+    "description": "Développement d'applications web et logicielles, mis en pratique sur des projets réels.",
+    "skills": [
+      { "name": "Java (POO)", "level": 70, "icon": "Code" },
+      { "name": "PHP", "level": 70, "icon": "FileCode" },
+      { "name": "SQL", "level": 70, "icon": "DatabaseBackup" },
+      { "name": "HTML / CSS", "level": 65, "icon": "Code" },
+      { "name": "JavaScript", "level": 45, "icon": "SquareCode" },
+      { "name": "C# (bases)", "level": 40, "icon": "Code2" },
+      { "name": "Python (bases)", "level": 45, "icon": "FileCode2" }
+    ]
+  },
+  {
+    "category": "Bases de données & conception",
+    "icon": "DatabaseBackup",
+    "description": "Modélisation, interrogation et sécurisation des données ; conception orientée objet.",
+    "skills": [
+      { "name": "MySQL", "level": 70, "icon": "DatabaseBackup" },
+      { "name": "Modélisation relationnelle", "level": 65, "icon": "Layers" },
+      { "name": "Requêtes préparées (PDO)", "level": 65, "icon": "KeyRound" },
+      { "name": "Architecture MVC", "level": 65, "icon": "Layers" },
+      { "name": "Programmation orientée objet", "level": 70, "icon": "Boxes" },
+      { "name": "Algorithmique", "level": 60, "icon": "Hash" }
+    ]
+  },
+  {
+    "category": "Outils, sécurité & méthodes",
+    "icon": "SquareTerminal",
+    "description": "Outils du quotidien, bonnes pratiques de sécurité applicative et documentation.",
+    "skills": [
+      { "name": "Git & GitHub", "level": 60, "icon": "GitBranch" },
+      { "name": "Visual Studio Code", "level": 70, "icon": "SquareTerminal" },
+      { "name": "Node.js", "level": 45, "icon": "Boxes" },
+      { "name": "MAMP / phpMyAdmin", "level": 60, "icon": "Server" },
+      { "name": "Sécurité (injections SQL, XSS)", "level": 55, "icon": "ShieldCheck" },
+      { "name": "Documentation technique", "level": 65, "icon": "FileText" }
+    ]
+  }
+]

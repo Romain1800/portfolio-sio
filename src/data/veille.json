@@ -1,0 +1,82 @@
+[
+  {
+    "id": "v1",
+    "title": "Assistants de code IA : comment ils transforment le métier de développeur",
+    "category": "Intelligence artificielle",
+    "date": "2026-09-10",
+    "source": "Developpez.com",
+    "url": "https://www.developpez.com",
+    "summary": "Panorama des assistants de code (complétion, génération, revue) et de leur usage raisonné dans un cadre professionnel : gains de productivité, limites et bonnes pratiques.",
+    "tags": ["IA", "Développement", "Productivité"]
+  },
+  {
+    "id": "v2",
+    "title": "Comprendre les grands modèles de langage (LLM) et leurs cas d'usage",
+    "category": "Intelligence artificielle",
+    "date": "2026-08-28",
+    "source": "Hugging Face",
+    "url": "https://huggingface.co/blog",
+    "summary": "Fonctionnement des LLM, notions de tokens, de contexte et de fine-tuning, et exemples d'intégration dans des applications concrètes.",
+    "tags": ["IA", "LLM", "NLP"]
+  },
+  {
+    "id": "v3",
+    "title": "IA générative : enjeux de sécurité et de confidentialité des données",
+    "category": "Intelligence artificielle",
+    "date": "2026-08-05",
+    "source": "LeMagIT",
+    "url": "https://www.lemagit.fr",
+    "summary": "Risques liés à l'usage de l'IA générative en entreprise (fuite de données, prompt injection) et bonnes pratiques pour un usage maîtrisé.",
+    "tags": ["IA", "Sécurité", "RGPD"]
+  },
+  {
+    "id": "v4",
+    "title": "Injections SQL : comprendre et prévenir la faille n°1 des applications web",
+    "category": "Cybersécurité",
+    "date": "2026-07-20",
+    "source": "OWASP",
+    "url": "https://owasp.org/www-community/attacks/SQL_Injection",
+    "summary": "Mécanisme des injections SQL et contre-mesures : requêtes préparées et paramétrées (PDO), validation des entrées et principe du moindre privilège.",
+    "tags": ["Cybersécurité", "SQL", "OWASP"]
+  },
+  {
+    "id": "v5",
+    "title": "OWASP Top 10 : les principales vulnérabilités des applications web",
+    "category": "Cybersécurité",
+    "date": "2026-07-02",
+    "source": "OWASP",
+    "url": "https://owasp.org/www-project-top-ten/",
+    "summary": "Tour d'horizon des failles les plus répandues (injections, XSS, contrôle d'accès défaillant) et des réflexes de développement sécurisé à adopter.",
+    "tags": ["Cybersécurité", "Web", "OWASP"]
+  },
+  {
+    "id": "v6",
+    "title": "Sécurité applicative : les bonnes pratiques recommandées par l'ANSSI",
+    "category": "Cybersécurité",
+    "date": "2026-06-18",
+    "source": "ANSSI",
+    "url": "https://www.ssi.gouv.fr",
+    "summary": "Recommandations de l'ANSSI pour développer et déployer des applications plus sûres : gestion des accès, journalisation et protection des données.",
+    "tags": ["Cybersécurité", "Bonnes pratiques"]
+  },
+  {
+    "id": "v7",
+    "title": "Architecture MVC et code maintenable en PHP",
+    "category": "Développement web",
+    "date": "2026-05-30",
+    "source": "Grafikart",
+    "url": "https://grafikart.fr",
+    "summary": "Séparer modèle, vue et contrôleur pour un code plus lisible et évolutif, avec accès aux données via PDO et requêtes préparées.",
+    "tags": ["PHP", "MVC", "Développement"]
+  },
+  {
+    "id": "v8",
+    "title": "Git & GitHub : bonnes pratiques pour un étudiant développeur",
+    "category": "Développement web",
+    "date": "2026-05-12",
+    "source": "GitHub Blog",
+    "url": "https://github.blog",
+    "summary": "Organiser ses dépôts, écrire des commits clairs et publier ses projets pour construire un portfolio de code consultable par les recruteurs.",
+    "tags": ["Git", "GitHub", "Outils"]
+  }
+]

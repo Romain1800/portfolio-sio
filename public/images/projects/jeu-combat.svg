@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Jeu de combat — application Java orientée objet">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a1010"/>
+      <stop offset="0.55" stop-color="#dc2626"/>
+      <stop offset="1" stop-color="#f05252"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="0.7" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g2)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <g font-family="'JetBrains Mono','Courier New',monospace" fill="#ffffff">
+    <text x="600" y="300" font-size="150" font-weight="700" text-anchor="middle">{ }</text>
+    <text x="600" y="400" font-size="46" font-weight="600" text-anchor="middle" opacity="0.95">Jeu de combat — Java POO</text>
+    <text x="600" y="455" font-size="30" text-anchor="middle" opacity="0.8">Java · Programmation orientée objet</text>
+  </g>
+</svg>

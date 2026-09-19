@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cnil-rgpd",
+    "name": "MOOC RGPD — Atelier de la CNIL",
+    "issuer": "CNIL",
+    "date": "Suivi",
+    "score": "Formation suivie",
+    "icon": "FileText",
+    "description": "Formation en ligne de la CNIL sur le Règlement Général sur la Protection des Données : principes du RGPD, droits des personnes et obligations liées au traitement des données personnelles.",
+    "url": "https://www.cnil.fr/fr/la-cnil-lance-une-nouvelle-version-de-sa-formation-en-ligne-au-rgpd-ouverte-tous",
+    "credential": null,
+    "status": "Obtenue"
+  },
+  {
+    "id": "anssi-secnumacademie",
+    "name": "MOOC SecNumacadémie",
+    "issuer": "ANSSI",
+    "date": "Suivi",
+    "score": "Formation suivie",
+    "icon": "ShieldCheck",
+    "description": "Formation de l'ANSSI aux fondamentaux de la sécurité du numérique : hygiène informatique, authentification, sécurité des données et sensibilisation aux menaces.",
+    "url": "https://secnumacademie.gouv.fr",
+    "credential": null,
+    "status": "Obtenue"
+  },
+  {
+    "id": "formation-ia",
+    "name": "Formation en Intelligence Artificielle",
+    "issuer": "En cours",
+    "date": "En cours",
+    "score": "En préparation",
+    "icon": "Cpu",
+    "description": "Formation en cours autour de l'intelligence artificielle et de ses usages — le domaine qui me passionne et que je souhaite approfondir en complément de mon parcours de développeur.",
+    "url": "#",
+    "credential": null,
+    "status": "Visée"
+  },
+  {
+    "id": "formation-cyber",
+    "name": "Formation en Cybersécurité",
+    "issuer": "En cours",
+    "date": "En cours",
+    "score": "En préparation",
+    "icon": "Shield",
+    "description": "Formation en cours sur les fondamentaux de la cybersécurité et la sécurité applicative (vulnérabilités web, bonnes pratiques), en complément de ma formation.",
+    "url": "#",
+    "credential": null,
+    "status": "Visée"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "year": "2021",
+    "title": "Baccalauréat Général",
+    "subtitle": "Spécialités Mathématiques & NSI — Lycée Madame de Staël",
+    "description": "Obtention du baccalauréat général avec les spécialités Mathématiques et Numérique & Sciences Informatiques (NSI), première approche de la programmation et de l'algorithmique.",
+    "type": "formation"
+  },
+  {
+    "year": "2021 – 2023",
+    "title": "BUT Gestion Logistique & Transport",
+    "subtitle": "IUT Clermont Auvergne",
+    "description": "Organisation, gestion de flux et respect des procédures. Un passage qui m'a forgé une rigueur et un sens de l'organisation que je réinvestis aujourd'hui dans le développement.",
+    "type": "formation"
+  },
+  {
+    "year": "2021 – 2023",
+    "title": "Bénévole — logistique & distribution",
+    "subtitle": "Secours Populaire",
+    "description": "Collectes, distributions et gestion des stocks, travail en équipe et encadrement ponctuel de nouveaux bénévoles. Le goût du concret et du service rendu.",
+    "type": "experience"
+  },
+  {
+    "year": "2024 – 2026",
+    "title": "BTS SIO — Option SLAM",
+    "subtitle": "ICOF, Campus Lyon Saint-Irénée",
+    "description": "Formation au développement d'applications et web, aux bases de données, à la programmation orientée objet, à l'algorithmique et à la gestion de projet.",
+    "type": "formation"
+  },
+  {
+    "year": "Mai – Juin 2026",
+    "title": "Stagiaire — outils de gestion & documentation",
+    "subtitle": "Al Nilaya (cosmétique naturelle)",
+    "description": "Conception d'un outil de suivi des stocks, des références et des ventes, tableau de bord commercial et documentation technique, au sein d'une petite structure e-commerce.",
+    "type": "experience"
+  },
+  {
+    "year": "Objectif",
+    "title": "Stage en développement",
+    "subtitle": "Web / logiciel — 2ᵉ année de BTS SIO SLAM",
+    "description": "Rejoindre une équipe de développement pour mettre mes compétences en pratique et continuer à progresser, avec un intérêt marqué pour l'intelligence artificielle et la sécurité applicative.",
+    "type": "objectif"
+  }
+]

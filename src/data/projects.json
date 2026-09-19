@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "catalogue-jeux-mvc",
+    "title": "Catalogue de jeux vidéo — application web MVC",
+    "summary": "Application web PHP/MySQL structurée en MVC : base de données relationnelle, requêtes préparées PDO et protection contre les injections SQL et le XSS.",
+    "category": "Développement web",
+    "date": "2026",
+    "duration": "Projet BTS SIO SLAM",
+    "featured": true,
+    "cover": "/images/projects/catalogue-jeux.svg",
+    "technologies": ["PHP", "MySQL", "PDO", "HTML", "CSS", "MVC"],
+    "competencesBTS": ["Conception et développement d'une solution applicative", "Gestion des données"],
+    "status": "Terminé"
+  },
+  {
+    "slug": "jeu-combat-java-poo",
+    "title": "Jeu de combat — application Java orientée objet",
+    "summary": "Programme Java simulant des combats entre personnages : encapsulation, associations entre classes, collections et redéfinition de méthodes.",
+    "category": "Développement logiciel",
+    "date": "2026",
+    "duration": "Projet BTS SIO SLAM",
+    "featured": true,
+    "cover": "/images/projects/jeu-combat.svg",
+    "technologies": ["Java", "POO", "Maven", "JUnit"],
+    "competencesBTS": ["Programmation orientée objet", "Conception logicielle"],
+    "status": "Terminé"
+  },
+  {
+    "slug": "outil-gestion-al-nilaya",
+    "title": "Outil de gestion & tableau de bord — Al Nilaya",
+    "summary": "Outil centralisé de suivi des stocks, des références produits et des ventes, avec alertes de rupture automatiques, tableau de bord commercial et documentation technique.",
+    "category": "Gestion des données",
+    "date": "2026",
+    "duration": "Stage BTS SIO 1ʳᵉ année",
+    "featured": true,
+    "cover": "/images/stages/al-nilaya/tableau-de-bord.png",
+    "technologies": ["Excel avancé", "RECHERCHEX", "Modélisation", "Shopify", "Documentation"],
+    "competencesBTS": ["Analyse des besoins", "Support et mise à disposition d'un service"],
+    "status": "Terminé"
+  }
+]

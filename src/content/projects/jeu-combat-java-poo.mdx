@@ -1,0 +1,31 @@
+## Contexte
+
+Projet de révisions en **programmation orientée objet (Java)** réalisé dans le cadre du BTS SIO
+option SLAM. Un peuple de 10 personnages est réparti aléatoirement en deux camps et chacun reçoit
+une arme ; le programme simule ensuite des rencontres aléatoires jusqu'à la victoire d'un camp.
+
+## Concepts de POO mis en œuvre
+
+- **Encapsulation** : attributs `private`, accès via getters/setters.
+- **Constructeurs** : initialisation cohérente des objets (ex. vie à 100).
+- **Association bidirectionnelle** : un `Personnage` connaît son `Arme`, et réciproquement.
+- **Collections** : `ArrayList` pour le réservoir de personnages et d'armes.
+- **Aléatoire** : classe `Random` (couleurs, armes, tirage des rencontres).
+- **Redéfinition de méthode** : `@Override` de `toString()`.
+
+## Classes principales
+
+- `Personnage` — classe centrale : nom, couleur, vie, arme et logique de combat (`rencontrer`).
+- `Arme` — nom, dégâts et référence vers le personnage porteur.
+- `Reservoir` — données communes (peuple + armurerie) via des attributs `static`.
+- `Jeu` — orchestration de la partie (constitution, tirages, fin de partie).
+- `Main` — programme principal : déroulement d'une partie.
+
+## Résultat
+
+Un programme console fonctionnel qui met en pratique les fondamentaux de la POO, avec des tests
+unitaires (JUnit) et une gestion propre des associations entre objets.
+
+## Code source
+
+- Dépôt GitHub : [github.com/Romain1800/jeu-combat-poo](https://github.com/Romain1800/jeu-combat-poo)
