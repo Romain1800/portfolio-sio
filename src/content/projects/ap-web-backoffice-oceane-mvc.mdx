@@ -1,0 +1,57 @@
+## Contexte
+
+Activité professionnelle (AP) du BTS SIO option SLAM : faire évoluer le backoffice de la **Compagnie
+Océane** (gestion des liaisons maritimes entre ports) en **PHP selon l'architecture MVC**. Le projet
+a été réalisé **en équipe de 3**, du 23/03/2026 au 10/05/2026, avec un dépôt GitHub partagé,
+des sprints et des tickets.
+
+## Ma contribution
+
+J'ai développé les **sprints 4, 5 et 6** :
+
+- **Sprint 4 — CRUD des liaisons** : fonctions du modèle (`getLesPorts`, `insertLiaison`,
+  `updateLiaison`, `deleteLiaison`), routes, boutons Modifier / Supprimer dans le tableau et
+  **modales Ajouter, Modifier et Supprimer** gérées en JavaScript (chargement AJAX).
+- **Sprint 5 — gestion des utilisateurs** : modèle `utilisateur`, contrôleur CRUD avec
+  **vérification du rôle administrateur** (`isAdmin`), vue CRUD et modales, lien « Gérer les
+  utilisateurs » dans le menu admin.
+- **Sprint 6 — import des traversées** : modèle `traversee`, contrôleur d'import, routes et vue
+  d'import accessible depuis le menu.
+- Mise à jour du **README** (présentation du projet et fonctionnalités).
+
+Mes coéquipiers ont réalisé les autres sprints (dont la connexion des utilisateurs).
+
+## Fonctionnalités
+
+- Liste des liaisons (code, secteur, port de départ, port d'arrivée, distance) avec recherche et pagination.
+- Ajout, modification et suppression d'une liaison depuis des modales, sans rechargement de page.
+- Gestion des utilisateurs réservée aux administrateurs.
+- Import de traversées.
+
+## Architecture
+
+- Architecture **MVC** avec un point d'entrée unique (`index.php`) : modèles (`liaison_modele.php`,
+  `utilisateur_modele`, `traversee_modele`), contrôleurs (`liaison_controleur.php`, contrôleur CRUD
+  utilisateur, contrôleur d'import) et vues (`liaison_CRUD_vue.php`, etc.).
+- Dossiers du projet : `site`, `database`, `documentation`, `tests`.
+
+## Environnement de travail
+
+- Dépôt **GitHub** d'équipe (commits par sprint, tickets), développement dans **GitHub Codespaces**.
+- **phpMyAdmin** pour la base de données.
+- Documentation du code générée avec **phpDocumentor**.
+
+## Résultats
+
+Une application démontrée en vidéo (2 min 13) : consultation, ajout, modification et suppression
+des liaisons, gestion des utilisateurs et import des traversées, dans un code organisé en MVC.
+
+## Compétences BTS mobilisées
+
+- Concevoir et développer une solution applicative (PHP, MVC, accès aux données).
+- Travailler en mode projet (sprints, dépôt partagé, répartition du travail en équipe).
+
+## Preuves
+
+- Vidéo de démonstration remise le 10/05/2026 (documentation utilisateur).
+- Dépôt GitHub de l'organisation ICOF (privé) : historique de commits de mes sprints 4 à 6.

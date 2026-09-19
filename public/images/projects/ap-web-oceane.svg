@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Backoffice de la Compagnie Océane — AP web PHP MVC">
+  <defs>
+    <linearGradient id="gw" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6e0f0f"/>
+      <stop offset="0.55" stop-color="#c81e1e"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <radialGradient id="gloww" cx="0.3" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#gw)"/>
+  <rect width="1200" height="630" fill="url(#gloww)"/>
+  <g font-family="'JetBrains Mono','Courier New',monospace" fill="#ffffff">
+    <text x="600" y="300" font-size="140" font-weight="700" text-anchor="middle">MVC</text>
+    <text x="600" y="400" font-size="46" font-weight="600" text-anchor="middle" opacity="0.95">Backoffice Compagnie Océane</text>
+    <text x="600" y="455" font-size="30" text-anchor="middle" opacity="0.8">PHP · MVC · AJAX · MySQL</text>
+  </g>
+</svg>

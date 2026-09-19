@@ -37,5 +37,31 @@
     "technologies": ["Excel avancé", "RECHERCHEX", "Modélisation", "Shopify", "Documentation"],
     "competencesBTS": ["Analyse des besoins", "Support et mise à disposition d'un service"],
     "status": "Terminé"
+  },
+  {
+    "slug": "ap-web-backoffice-oceane-mvc",
+    "title": "Backoffice de la Compagnie Océane — AP web en équipe (PHP MVC)",
+    "summary": "Application web PHP en architecture MVC réalisée en équipe de 3 : CRUD des liaisons avec modales, gestion des utilisateurs réservée aux administrateurs et import des traversées.",
+    "category": "Développement web",
+    "date": "2026",
+    "duration": "AP BTS SIO SLAM — du 23/03/2026 au 10/05/2026",
+    "featured": true,
+    "cover": "/images/projects/ap-web-oceane.svg",
+    "technologies": ["PHP", "MVC", "MySQL", "JavaScript", "AJAX", "GitHub", "Codespaces"],
+    "competencesBTS": ["Conception et développement d'une solution applicative", "Travailler en mode projet"],
+    "status": "Terminé"
+  },
+  {
+    "slug": "ap-c-gestion-compagnie-oceane",
+    "title": "Gestion Compagnie Océane — application de bureau C#",
+    "summary": "Application de bureau en C# pour gérer les bateaux, les ports et les traversées d'une compagnie maritime : affectation d'un bateau, création de traversée, recherche par port et par date.",
+    "category": "Développement logiciel",
+    "date": "2026",
+    "duration": "AP BTS SIO SLAM — avril à mai 2026 (rendu le 10/05/2026)",
+    "featured": true,
+    "cover": "/images/projects/ap-c-oceane.svg",
+    "technologies": ["C#", "Windows Forms", "POO", "GitHub"],
+    "competencesBTS": ["Conception et développement d'une solution applicative", "Programmation orientée objet"],
+    "status": "Terminé"
   }
 ]
