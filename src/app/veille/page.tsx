@@ -15,8 +15,8 @@ export default function VeillePage() {
     <>
       <PageHero
         eyebrow="Veille technologique"
-        title="Suivre l'actualité IT au quotidien"
-        description="Une sélection d'articles que je suis régulièrement : intelligence artificielle, cybersécurité et développement web."
+        title="Veille technologique — sélection d'articles"
+        description="Sélection des articles les plus pertinents de ma veille, menée depuis 2025 : intelligence artificielle, cybersécurité et développement web."
       />
       <section className="py-16">
         <Container>
