@@ -60,7 +60,7 @@ export interface Certification {
   description: string;
   url: string;
   credential: string | null;
-  status: "Obtenue" | "Visée";
+  status: "Obtenue" | "Suivie" | "Visée";
 }
 
 export interface VeilleArticle {

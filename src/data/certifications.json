@@ -9,7 +9,7 @@
     "description": "Formation en ligne de la CNIL sur le Règlement Général sur la Protection des Données : principes du RGPD, droits des personnes et obligations liées au traitement des données personnelles.",
     "url": "https://www.cnil.fr/fr/la-cnil-lance-une-nouvelle-version-de-sa-formation-en-ligne-au-rgpd-ouverte-tous",
     "credential": null,
-    "status": "Obtenue"
+    "status": "Suivie"
   },
   {
     "id": "anssi-secnumacademie",
@@ -21,7 +21,7 @@
     "description": "Formation de l'ANSSI aux fondamentaux de la sécurité du numérique : hygiène informatique, authentification, sécurité des données et sensibilisation aux menaces.",
     "url": "https://secnumacademie.gouv.fr",
     "credential": null,
-    "status": "Obtenue"
+    "status": "Suivie"
   },
   {
     "id": "formation-ia",

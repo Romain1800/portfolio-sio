@@ -13,9 +13,21 @@ export const metadata: Metadata = {
   description: "Certifications et formations : MOOC RGPD de la CNIL, SecNumacadémie de l'ANSSI, et une formation en intelligence artificielle en cours.",
 };
 
+const STATUS_ORDER: Record<Certification["status"], number> = {
+  Obtenue: 0,
+  Suivie: 1,
+  Visée: 2,
+};
+
+const STATUS_VARIANT: Record<Certification["status"], "success" | "accent" | "warning"> = {
+  Obtenue: "success",
+  Suivie: "accent",
+  Visée: "warning",
+};
+
 export default function CertificationsPage() {
-  const sorted = [...(certifications as Certification[])].sort((a, b) =>
-    a.status === b.status ? 0 : a.status === "Obtenue" ? -1 : 1
+  const sorted = [...(certifications as Certification[])].sort(
+    (a, b) => STATUS_ORDER[a.status] - STATUS_ORDER[b.status]
   );
 
   return (
@@ -43,7 +55,7 @@ export default function CertificationsPage() {
                         <Icon size={20} />
                       </span>
                       <div className="flex items-center gap-2">
-                        <Badge variant={cert.status === "Obtenue" ? "success" : "warning"}>
+                        <Badge variant={STATUS_VARIANT[cert.status]}>
                           {cert.status}
                         </Badge>
                         <ExternalLink size={14} className="text-muted transition-colors group-hover:text-accent" />
