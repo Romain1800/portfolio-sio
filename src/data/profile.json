@@ -17,10 +17,10 @@
     { "name": "Anglais", "level": "Niveau B1 — lecture technique" }
   ],
   "stats": [
-    { "label": "Projets présentés", "value": 3, "suffix": "" },
+    { "label": "Projets présentés", "value": 5, "suffix": "" },
     { "label": "Stage effectué", "value": 1, "suffix": "" },
     { "label": "Technologies pratiquées", "value": 8, "suffix": "" },
-    { "label": "Certifications", "value": 4, "suffix": "" }
+    { "label": "Certifications", "value": 2, "suffix": "" }
   ],
   "qualities": [
     "Autonomie & prise d'initiative",
