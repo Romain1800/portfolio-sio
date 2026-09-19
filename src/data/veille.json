@@ -21,13 +21,13 @@
   },
   {
     "id": "v3",
-    "title": "State of Open Models: Summer 2026 Observations",
+    "title": "A la peine, Mistral réoriente sa stratégie sur les LLM et SLM",
     "category": "Intelligence artificielle",
-    "date": "2026-08-14",
-    "source": "Hugging Face",
-    "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-    "summary": "Bilan de l'écosystème des modèles ouverts en 2026 : montée des laboratoires chinois, domination de Qwen, poids des petits modèles (moins d'1 milliard de paramètres) dans les téléchargements et émergence des agents comme nouveaux utilisateurs du Hub.",
-    "tags": ["IA", "Modèles ouverts", "LLM"]
+    "date": "2025-12-03",
+    "source": "Le Monde Informatique",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-a-la-peine-mistral-reoriente-sa-strategie-sur-les-llm-et-slm-98684.html",
+    "summary": "Après des difficultés face à ses concurrents américains, la licorne française Mistral AI revient aux modèles open source (licence Apache 2.0) avec sa famille Mistral 3 et des petits modèles (SLM) exécutables localement.",
+    "tags": ["IA", "Mistral", "Modèles ouverts"]
   },
   {
     "id": "v4",
